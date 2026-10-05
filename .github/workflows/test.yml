@@ -1,0 +1,12 @@
+name: TDS Test
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2007077@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
